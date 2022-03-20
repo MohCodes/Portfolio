@@ -108,7 +108,7 @@
   align-items: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .aboutMeContainer {
     border: #61dafb 2px solid;
     padding: 12vh;
@@ -158,8 +158,10 @@
   border: 2px solid teal;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 5vh;
+  align-items: flex-end;
+  height: 13vh;
+  padding: 1vh;
+  font-size: 30px;
 }
 
 .techImage {
@@ -168,12 +170,14 @@
 }
 
 .techTitle {
-  border: 2px solid teal;
+  border: 1px solid darkgray;
   width: 80%;
   height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 @media (max-width: 1060px) {
@@ -204,4 +208,75 @@
     grid-template-columns: repeat(1, 10fr);
     gap: 10vh;
   }
+}
+
+/* Projects*/
+
+.projectsContainer {
+  border: 2px solid rgb(0, 19, 128);
+  min-height: 60vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projectsCardContainer {
+  border: 2px solid rgb(0, 19, 128);
+  width: 100%;
+  height: 80%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  flex-wrap: wrap;
+}
+
+.projectCardContainer {
+  border: 2px solid rgb(0, 19, 128);
+  min-width: 17%;
+  height: 30vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+}
+
+.projectPicture {
+  border: 2px solid rgb(0, 19, 128);
+  width: 80%;
+  height: 60%;
+  margin-top: 10px;
+}
+
+.projectName {
+  border: 2px solid rgb(0, 19, 128);
+  width: 80%;
+  height: 12%;
+}
+
+.projectLinks {
+  border: 2px solid rgb(0, 19, 128);
+  width: 80%;
+  height: 12%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.projectLinks2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid rgb(151, 155, 177);
+  height: 80%;
+  width: 20%;
+  cursor: pointer;
 }
