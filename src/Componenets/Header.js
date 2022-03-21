@@ -4,7 +4,7 @@ function Header() {
         <div className="nameContainer headerContainers"> Mohanad Mazin</div>
         <div className="aboutContainer headerContainers"> About Me</div>
         <div className="projectContainer headerContainers"> Projects</div>
-        <div className="contactContainer headerContainers">Contact</div>
+        <div className="contactBarContainer headerContainers">Contact</div>
 
     </div>);
 }

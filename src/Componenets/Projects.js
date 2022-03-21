@@ -1,5 +1,7 @@
 import popUpIcon from "../resources/popUpIcon.svg"
 import source from "../resources/source.svg"
+import shoppingCart from "../resources/shoppingCart.png"
+import facebookcloneImage from "../resources/facebookcloneImage.png"
 
 
 
@@ -7,11 +9,11 @@ import source from "../resources/source.svg"
 function Projects() {
 
 const projects = [
-                {projectName: 'Facebook Clone', projectPicture: "",projectDescription:"",projectLinks:{github:"",live:""}},
-                {projectName: 'Shopping Cart', projectPicture: "",projectDescription:"",projectLinks:{github:"",live:""}},
+                {projectName: 'Facebook Clone', projectPicture: facebookcloneImage,projectDescription:"",projectLinks:{github:"https://github.com/MohCodes/facebook-clone",live:"https://mohcodes.github.io/facebook-clone/"}},
+                {projectName: 'Shopping Cart', projectPicture: shoppingCart,projectDescription:"",projectLinks:{github:"https://github.com/MohCodes/Shopping-Cart",live:"https://mohcodes.github.io/Shopping-Cart/"}},
                 ]
 
-
+let i = 0;
 
 
     return (  
@@ -21,9 +23,9 @@ const projects = [
 
 
             {projects.map((proj)=>{
-
+                i++
                 return(
-                    <div className="projectCardContainer">
+                    <div key ={i} className="projectCardContainer">
                         <img className = "projectPicture"src={proj.projectPicture} alt = {proj.projectName}/>
                         <div className="projectName">{proj.projectName}</div>
 
@@ -44,7 +46,9 @@ const projects = [
                         </div>
                         </div>
                     </div>
+                    
                 )
+                
             })}
             
 
