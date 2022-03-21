@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #9fbfdb;
 }
 
 .App-logo {
@@ -42,7 +43,6 @@
 .HeaderContainer {
   position: fixed;
   top: 0;
-  border: 2px solid green;
   min-width: 99.8%;
   padding-bottom: 1.7vh;
   padding-top: 1.7vh;
@@ -50,29 +50,34 @@
   justify-content: flex-end;
   align-items: center;
   gap: 3vh;
-  background-color: rgb(252, 204, 199);
+  background-color: #13315c;
 }
 
 .headerContainers {
-  border: #61dafb 2px solid;
   min-width: 40px;
   padding: 12px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  color: #4e4e4e;
+  color: #8da9c4;
+}
+
+.headerContainers:hover {
+  color: #f9b5ac;
 }
 
 .nameContainer {
   margin-right: auto;
   cursor: inherit;
 }
+.nameContainer:hover {
+  color: #8da9c4;
+}
 
 /*About Me */
 
 .aboutMeContainer {
-  border: #61dafb 2px solid;
-  padding: 12vh;
-  margin-top: 15vh;
+  padding: 19vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,10 +90,13 @@
   padding-bottom: 20%;
   padding-top: 20%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
 }
 .aboutText {
   min-width: 40%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+  padding-right: 10%;
+  padding-left: 10%;
   max-height: 20%;
   /* padding-top: 20%; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -98,22 +106,23 @@
   flex-direction: column;
   font-family: "Playfair", sans-serif;
   border-radius: 1vh;
+  background-color: #b6cee4;
 }
 
 .aboutMeText {
-  border: 2px green solid;
-  min-width: 40%;
-  padding: 10%;
+  min-width: 30%;
+  padding: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 @media (max-width: 800px) {
   .aboutMeContainer {
-    border: #61dafb 2px solid;
     padding: 12vh;
-    margin-top: 15vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,7 +145,6 @@
 /* Technologies */
 
 .TechnologiesContainer {
-  border: 2px solid teal;
   padding: 20vh;
   display: grid;
   grid-template-columns: repeat(5, 2fr);
@@ -153,16 +161,20 @@
   align-items: center;
   gap: 2vh;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  background-color: #fdfeff;
+  background-color: #fdfeff;
+  border-radius: 1vh;
 }
 
 .technologiesTitle {
-  border: 2px solid teal;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  height: 13vh;
+  align-items: center;
+  height: 16vh;
   padding: 1vh;
   font-size: 30px;
+  background-color: #fdfeff;
 }
 
 .techImage {
@@ -179,11 +191,13 @@
   align-items: center;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: #5b8feb;
+  border-radius: 5px;
+  color: white;
 }
 
 @media (max-width: 1060px) {
   .TechnologiesContainer {
-    border: 2px solid teal;
     padding: 20vh;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
@@ -193,7 +207,6 @@
 
 @media (max-width: 700px) {
   .TechnologiesContainer {
-    border: 2px solid teal;
     padding: 20vh;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -203,7 +216,6 @@
 
 @media (max-width: 500px) {
   .TechnologiesContainer {
-    border: 2px solid teal;
     padding: 20vh;
     display: grid;
     grid-template-columns: repeat(1, 10fr);
@@ -214,13 +226,23 @@
 /* Projects*/
 
 .projectsContainer {
-  border: 2px solid rgb(0, 19, 128);
-  min-height: 70vh;
+  min-height: 85vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   min-width: 99%;
+  background-color: white;
+}
+
+.projectsTitle {
+  background-color: #fdfeff;
+  width: 100%;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #b0cee9 0.5px solid;
 }
 
 .projectsCardContainer {
@@ -230,44 +252,49 @@
   margin-top: 50px;
   justify-content: space-around;
   align-items: center;
-
+  background-color: white;
   flex-wrap: wrap;
 }
 
 .projectCardContainer {
   /* border: 2px solid rgb(167, 167, 167); */
-  min-width: 20%;
+  min-width: 30%;
   height: 40vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   gap: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 1vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #b0cee9;
 }
 
 .projectPicture {
-  border: 2px solid rgb(0, 19, 128);
   width: 80%;
   height: 55%;
   margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .projectName {
-  border: 2px solid rgb(0, 19, 128);
   width: 80%;
   height: 12%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 4px;
 }
 
 .projectLinks {
-  border: 2px solid rgb(0, 19, 128);
   width: 80%;
   height: 12%;
   margin-bottom: 10px;
@@ -275,53 +302,64 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+  background-color: white;
+  border-radius: 4px;
+  background-color: #b0cee9;
 }
 
 .projectLinks2 {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  border: 2px solid rgb(151, 155, 177);
+  align-items: center;
+  border-radius: 6px;
   height: 80%;
   width: 20%;
   cursor: pointer;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 /* Contact Me*/
 
 .contactContainer {
-  border: 2px solid saddlebrown;
-  height: 85vh;
+  height: 105vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  background-color: #9fbfdb;
 }
 
 .contactTitle {
-  border: 2px solid saddlebrown;
-  margin-top: 40px;
-  min-width: 40%;
-  height: 20%;
+  /* margin-top: ; */
+  min-width: 100%;
+  height: 16%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px;
+  background-color: #13315c;
+  color: white;
 }
 
 .formContainer {
-  border: 2px solid saddlebrown;
-  margin-top: 20px;
+  margin-top: 100px;
   min-width: 40%;
-  height: 65%;
-  border-radius: 2vh;
+  height: 60%;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #9fbfdb;
+}
+
+@media (max-width: 850px) {
+  .formContainer {
+    min-width: 70%;
+  }
 }
 
 .contactForm {
-  border: 2px solid saddlebrown;
   height: 90%;
   min-width: 60%;
   display: flex;
@@ -329,6 +367,8 @@
   align-items: center;
   flex-direction: column;
   gap: 2vh;
+  border-radius: 10px;
+  background-color: #5c89b1;
 }
 
 .inputContainer {
@@ -337,10 +377,16 @@
   align-items: center;
   flex-direction: column;
   margin-top: 5px;
+  color: white;
+  width: 80%;
+  height: 15%;
 }
 
 .input {
+  min-width: 80%;
   margin-bottom: 5px;
+  border-radius: 4px;
+  border: inherit;
 }
 
 .messageInputContainer {
@@ -357,5 +403,13 @@
   height: 8%;
   width: 35%;
   border-radius: 5px;
-  margin-top: 60px;
+  margin-top: 40px;
+  color: #13315c;
+  font-size: 15px;
+  background-color: white;
+}
+
+.nameInput,
+.emailInput {
+  height: 150%;
 }
