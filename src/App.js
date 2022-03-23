@@ -5,6 +5,7 @@ import AboutMe from './Componenets/AboutMe'
 import Technologies from './Componenets/Technologies';
 import Projects from './Componenets/Projects';
 import Contact from './Componenets/Contact';
+import Footer from './Componenets/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Technologies/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

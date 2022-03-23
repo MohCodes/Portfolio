@@ -1,7 +1,11 @@
+import flower from "../resources/flowPic.jpg"
+
+
+
 function AboutMe() {
     return (  
     <div className="aboutMeContainer">
-        <div className="aboutImage"></div>
+        <div className="aboutImage"><img className="flowerPic" src={flower} alt ="flower"/></div>
         <div className="aboutText">
             <h1 className="aboutMeHeader">Hey, Call Me Mo</h1>
             <p className="aboutMeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
