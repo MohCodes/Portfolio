@@ -11,7 +11,7 @@ function Contact() {
     }
 
     return (  
-        <div className="contactContainer">
+        <div id ="contactMe" className="contactContainer">
             <div className="contactTitle"> Get In Touch</div>
             <div className="formContainer">
                 <form action={formAction} method="POST"  onClick={formOnClick} className="contactForm">

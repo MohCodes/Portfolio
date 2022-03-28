@@ -4,11 +4,10 @@ import flower from "../resources/flowPic.jpg"
 
 function AboutMe() {
     return (  
-    <div className="aboutMeContainer">
-        <div className="aboutImage"><img className="flowerPic" src={flower} alt ="flower"/></div>
+    <div id = "aboutMe" className="aboutMeContainer">
         <div className="aboutText">
-            <h1 className="aboutMeHeader">Hey, Call Me Mo</h1>
-            <p className="aboutMeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h1 className="aboutMeHeader">About Me </h1>
+            <p className="aboutMeText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Aenean quis urna tincidunt sem cursus interdum a eu eros. 
                                         Nulla varius sed erat faucibus hendrerit.
                                         Nullam consequat nulla ante, nec commodo nibh feugiat non. 
@@ -21,6 +20,8 @@ function AboutMe() {
                                         dis parturient montes, nascetur ridiculus mus. Sed mole
             </p>
         </div>
+        <div className="aboutImage"><img className="flowerPic" src={flower} alt ="flower"/></div>
+    
 
     </div>
     );

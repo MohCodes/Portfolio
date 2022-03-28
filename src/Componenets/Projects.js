@@ -17,7 +17,7 @@ let i = 0;
 
 
     return (  
-        <div className="projectsContainer">
+        <div id = "projects" className="projectsContainer">
             <div className="projectsTitle"><h1>My Projects</h1></div>
             <div className ="projectsCardContainer">
 
