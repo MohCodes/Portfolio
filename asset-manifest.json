@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.7d9d6a99.css",
+    "main.js": "/Portfolio/static/js/main.06924b0c.js",
+    "static/js/787.202b8111.chunk.js": "/Portfolio/static/js/787.202b8111.chunk.js",
+    "static/media/shoppingCart.png": "/Portfolio/static/media/shoppingCart.a1314f2fdfd20a90fd31.png",
+    "static/media/flowPic.jpg": "/Portfolio/static/media/flowPic.ba6a6a2b861ec6bc352d.jpg",
+    "static/media/moResume.pdf": "/Portfolio/static/media/moResume.dd56a38c5d4a14c6de3e.pdf",
+    "static/media/facebookcloneImage.png": "/Portfolio/static/media/facebookcloneImage.2c880213fe90d4fb0ac2.png",
+    "index.html": "/Portfolio/index.html",
+    "static/media/source.svg": "/Portfolio/static/media/source.e69615d51c58eca1f21d9d8535a05a32.svg",
+    "static/media/heart.svg": "/Portfolio/static/media/heart.6e8cf279f644e1cee40e4da6ce1fe3ff.svg",
+    "static/media/popUpIcon.svg": "/Portfolio/static/media/popUpIcon.9302ca7a903d8c5076dbe82f7f6ebd60.svg",
+    "static/media/whiteBurger.svg": "/Portfolio/static/media/whiteBurger.f8235882574e17fb850f4c89f02d8fe3.svg",
+    "main.7d9d6a99.css.map": "/Portfolio/static/css/main.7d9d6a99.css.map",
+    "main.06924b0c.js.map": "/Portfolio/static/js/main.06924b0c.js.map",
+    "787.202b8111.chunk.js.map": "/Portfolio/static/js/787.202b8111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d9d6a99.css",
+    "static/js/main.06924b0c.js"
+  ]
+}
